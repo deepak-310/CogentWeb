@@ -1,0 +1,676 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 50px;
+    
+}
+.logo_img{
+    width: 12rem;
+}
+.left_nav{
+    display: flex;
+    
+
+}
+.left_nav_content{
+    display: flex;
+    margin-left: 50px;
+    align-items: center;
+    /* justify-content: center; */
+}
+.left_nav_content p{
+    margin-left: 5px;
+  
+
+}
+.icon{
+    background-color: #3DADF2;
+    border-radius: 50%;
+    padding: 10px;
+    width: 35px;
+    height: 35px;
+}
+.icon img{
+    width: 15px;
+    
+}
+.btn{
+    
+    width: 110px;
+    height: 30px;
+    border-radius: 30px;
+    margin-left: 50px;
+    background-image:linear-gradient(#005696,#1C2541);
+    color: white;
+    border: none;
+}
+
+/* lear flutter css */
+.learn_flutter{
+    margin-top: 30px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.learn_flutter_left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 50px;
+  
+}
+.learn_flutter_left h1{
+    font-size: 45px;
+    display: inline;
+}
+.learn_flutter_left p{
+    margin-top: 30px;
+    font-size: 20px;
+    color: grey;
+}
+.btn2{
+    width: 15rem;
+    margin-top: 50px;
+    height: 4rem;
+    border-radius: 30px;
+    border: none;
+    background-color: #F8CA1B;
+    color: white;
+    font-size: 20px;
+}
+.btn2:hover{
+    cursor: pointer;
+}
+.learn_flutter_right{
+    width: 50%;
+}
+.learn_flutter_right img{
+    width: 45rem;
+    margin-left: -200px;
+  
+}
+
+
+/* achieve */
+.achieve{
+    margin: 100px 50px 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.achieve_left{
+    width: 40%;
+}
+.achieve_left p{
+    font-size: 20px;
+    color: gray;
+    font-weight: 600;
+}
+.achieve_left h1{
+    font-size: 40px;
+    margin-top: 30px;
+}
+.achieve_right{
+    width: 60%;
+  
+
+}
+.about{
+    display: inline-block;
+    margin: 20px 20px 30px 30px;  
+}
+.about img{
+    width: 30px;
+    height: 30px;
+}
+.about_text{
+    margin-left: 15px;
+}
+.about_text h3{
+    font-size: 18px;
+}
+.about_text p{
+    font-size: 13px;
+    color: gray;
+    font-weight: 600;
+    
+}
+
+
+/* courses */
+
+.courses{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.courses h3{
+    font-size: 30px;
+}
+.courses p{
+    font-weight: 600;
+    color: gray;
+    margin-top: 15px;
+}
+.courses_contaner{
+    display: flex;
+    background-color: rgb(241, 241, 241);
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.courses_contaner1{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 80px;background-color: #FDC800;
+    
+}
+.courses_left{
+    background-color: white;
+    width: 25%;
+    height: 300px;
+    margin: 50px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px #cecece ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.courses_left1{
+    background-color: white;
+    width: 25%;
+    height: 320px;
+    margin: 50px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px #cecece ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.courses_right1{
+    margin: 50px 0 0 50px;
+}
+.courses_left img{
+    width: 15rem;
+}
+.courses_left h3{
+    font-size: 20px;;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.rating1{
+    width: 70px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: #002147;
+    color: white;
+}
+.rating1 img{
+    width: 14px;
+}
+.rating2{
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: #3DADF2;
+    color: white;
+    margin-left: 30px;
+}
+.courses_right{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.courses_right h1{
+    font-size: 40px;
+}
+.courses_right h4{
+    color: #005696;
+    font-size: 18px;
+}
+.courses_right h3{
+    font-size: 25px;
+}
+.freepik{
+    position: absolute;
+    width: 8rem;
+    margin-top: 60px;
+    margin-left: 550px;
+}
+.enroll_but{
+    display: flex;
+}
+.enrollnow{
+    width: 130px;
+    height: 40px;
+    color: white;
+    background-color: #F8CA1B;
+    border: none;
+    border-radius: 5px;
+}
+.view_syllabus{
+    width: 150px;
+    height: 40px;
+    margin-left: 30px;
+    color: #005696;
+    background-color: white;
+    border: 1px solid #005696;
+    border-radius: 5px;
+}
+
+.component{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    margin-top: 30px;
+}
+.component2{
+    display: none;
+}
+
+.subscrible{
+   
+    display: flex;
+    margin: 50px 50px 30px 50px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.subscrible img{
+    width: 13rem;
+}
+.subnow {
+    margin-left: 20px;
+}
+.subnow p{
+    color: #fccc0b;
+    font-weight: 600;
+    font-size: 15px;
+}
+.subnow h2{
+    margin-top: 10px;
+    font-size: 30px;
+}
+.emailcontener{
+    margin-top: 20px;
+    border:  1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+.emailcontener input{
+    border: none;
+    height: 30px;
+    font-size: 15px;
+    outline: none;
+}
+.subsciblr_btn{
+    width: 100px;
+    height: 35px;
+    background-color: #F8CA1B;
+    border: none;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+
+/* timer */
+.timer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 100px;
+
+}
+.timer_conten{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #002147;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 200px;
+
+}
+.timer_conten img{
+    width: 6rem;
+}
+.timer_conten h1{
+    font-size: 20px;
+    margin: 0 10px;
+}
+.text{
+    font-size: 30px;
+    font-weight: 600;
+}
+.count_down{
+    margin:0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.count_down span{
+    font-size: 10px;
+}
+.count_down > div{
+    margin: 0 1 rem;
+    text-align: center;
+    padding: 0 20px;
+    border-radius: 12px;
+    min-width: 40px;
+}
+.left{
+    color: #FDC800;
+    font-size: 40px;
+}
+.count_down_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* footer_contener */
+.footer{
+    background-color:#005696;
+    width: 108.6%;
+    margin-left: -50px;
+    height: 230px;
+    margin-top: 7rem;
+   
+}
+.footer_contener{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 90px;
+}
+
+.address h1{
+    text-transform: uppercase;
+    color: #F8CA1B;
+    font-weight: 500;
+    font-size: 25px;
+}
+.address p{
+    margin-top: 20px;
+    color: white;
+}
+
+.phone{
+    
+    margin-left: 40px;
+
+}
+.phone p{
+    color: white;
+    
+    
+}
+.callNow{
+     margin-top: 50px;
+     width: 100px;
+     background-color: white;
+     border: none;
+     height: 40px;
+     border-radius: 30px;
+    
+}
+.social_links{
+    background-color:#F8CA1B;
+    width: 108.6%;
+    margin-left: -50px;
+    height: 60px;
+
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.links img{
+    margin-right: 60px;
+    margin-top: 10px;
+    width: 40px;
+}
+
+@media (max-width: 400px) {
+   
+    nav{
+       
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-left: -30px;
+    }
+    .left_nav{
+        flex-direction: column;
+    }
+    .left_nav_content{
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+    .btn{
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+    .learn_flutter{
+        flex-direction: column-reverse;
+    }
+    .learn_flutter_right img{
+        width: 25rem;
+       margin: 0 0 0 -80px;
+        
+    }
+    .learn_flutter_left{
+        width: 100%;
+    }
+    .learn_flutter_left h1{
+        font-size: 30px;
+
+    }
+    .learn_flutter_left p{
+        font-size: 15px;
+    }
+    .btn2{
+        width: 12rem;
+
+    }
+
+.achieve{
+    flex-direction: column;
+    margin-left: 0;
+    
+}
+.achieve_left{
+    width: 110%;
+}
+.achieve_left h1{
+    font-size: 30px;
+}
+.achieve_right{
+    width: 100%;
+  
+}
+.about{
+    width: 110%;
+    margin-left: -8px;
+    border-bottom: 1px solid gray;
+
+}
+.courses_contaner{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 380px;
+    margin-left: -60px;
+
+}
+.courses_left{
+    width: 250px;
+}
+.courses_right{
+    margin-left: 20px;
+}
+.courses_right h1{
+    font-size: 20px;
+    margin-top: -10px;
+    width: 80%;
+}
+.courses p{
+    font-size: 15px;
+    margin-bottom: 15px;
+    width: 90%;
+}
+.courses_right h4{
+    margin-bottom: 15px;
+    font-size: 15px;
+    width: 80%;
+}
+.courses_right h3{
+    font-size: 15px;
+}
+.enrollnow{
+    width: 100px;
+    margin-top: 20px;
+}
+.view_syllabus{
+    width: 120px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.enroll_but{
+    display: flex;
+    flex-direction: column;
+}
+.freepik{
+    width: 6rem;
+    margin-left: 215px;
+}
+.courses_contaner1{
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 370px;
+    margin-left: -60px;
+}
+.courses_left1{
+    width: 250px;
+}
+.courses_left1 img{
+    width:200px;
+}
+.courses_left1 h3{
+    font-size: 20px;
+}
+.courses_left1 .rating .rating1 img{
+    width: 1rem;
+    margin-left: 3px;
+    margin-top: 2px;
+}
+
+.component{
+    display: none;
+
+}
+.component2{
+    display: block;
+    width: 300px;
+}
+.subscrible{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    margin-left: 0;
+}
+.subnow h2{
+    font-size: 25px;
+}
+.emailcontener{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -20px;
+}
+.emailcontener input{
+    margin-left: 10px;
+}
+.subsciblr_btn{
+    margin-left: -20px;
+}
+.subscrible img{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.timer_conten{
+    flex-direction: column;
+    width: 320px;
+    margin-top: 380px;
+}
+.count_down div{
+    padding: 0;
+    margin-top: 20px;
+}
+.count_down_main{
+    flex-direction: column;
+}
+.left{
+    margin-top: 20px;
+}
+.footer{
+  margin-top: 300px;
+  height: 400px;
+  margin-left: -50px;
+  width: 400px;
+  
+
+}
+.footer_contener{
+    flex-direction: column;
+    margin-left: -10px;
+    align-items: flex-start;
+
+}
+.address{
+    margin-left: 20px;
+}
+.phone{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.callNow{
+    margin-top: 10px;
+}
+.social_links{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+}
+    
